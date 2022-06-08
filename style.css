@@ -11,3 +11,9 @@ header{
 div{
    color: aqua;
 }
+/* блок с контентом  */
+.content{
+   width: 100%;
+   height: 181px;
+   background-color: #F7654A;
+}
