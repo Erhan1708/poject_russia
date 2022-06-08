@@ -63,3 +63,24 @@
    background-image: url(img/building.png);
    background-size: 25%;
 }
+/* Ответы на вопросы */
+.answer_ques{
+   font-size: 36px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.answer{
+   margin: 100px 0 100px 220px;
+}
+.p_ques{
+   color: #f7654a;
+   font-size: 24px;
+}
+.p_lorem{
+   width: 640px;
+}
+.queshions{
+   display: flex;
+   gap: 20px;
+   flex-direction: column;
+}
