@@ -36,14 +36,16 @@
    height: 639px;
    display: flex;
    justify-content: center;
+   flex-direction: column;
 }
 .building_icons{
    height: 530px;
    display: flex;
-   justify-content: center;
-   align-items: center;
+   gap: 30px;
 }
 .build{
-   width: 40%;
+   /* display: flex; */
+   width: 50%;
    height: 30%;
+   background-color: #f7f7f7;
 }
