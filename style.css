@@ -32,20 +32,27 @@
    align-items: center;
 }
 .worked_dateils{
-   width: 45%;
+   width: 65%;
    height: 639px;
    display: flex;
    justify-content: center;
    flex-direction: column;
+   text-align: center;
 }
 .building_icons{
-   height: 530px;
+   height: 375px;
    display: flex;
    gap: 30px;
+   flex-wrap: wrap;
 }
 .build{
    /* display: flex; */
-   width: 50%;
-   height: 30%;
+   width: 272px;
+   height: 172px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
    background-color: #f7f7f7;
 }
