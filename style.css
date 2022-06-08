@@ -56,3 +56,10 @@
    gap: 10px;
    background-color: #f7f7f7;
 }
+/* картины с зданием  */
+.background_build{
+   width: 100%;
+   height: 570px;
+   background-image: url(img/building.png);
+   background-size: 25%;
+}
