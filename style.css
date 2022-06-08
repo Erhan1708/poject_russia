@@ -3,17 +3,47 @@
    padding: 0;
    box-sizing: border-box;
 }
-header{
-   background-image: url(./img/Rectangle.png);
-   background-repeat: no-repeat;
-   background-size: 100%;
-}
-div{
-   color: aqua;
-}
 /* блок с контентом  */
 .content{
    width: 100%;
    height: 181px;
    background-color: #F7654A;
+   color: aliceblue;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20%;
+}
+/* кнопка с отправкой  */
+.messenge{
+   width: 160px;
+   height: 49px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 14px;
+}
+/*блок строительными эллементами  */
+   .worked{
+   height: 939px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.worked_dateils{
+   width: 45%;
+   height: 639px;
+   display: flex;
+   justify-content: center;
+}
+.building_icons{
+   height: 530px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.build{
+   width: 40%;
+   height: 30%;
 }
