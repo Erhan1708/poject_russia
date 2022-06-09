@@ -84,3 +84,26 @@
    gap: 20px;
    flex-direction: column;
 }
+/* блоки с контактами  */
+.contacts{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 450px;
+   flex-direction: column;
+}
+.contact_data{
+   display: flex;
+   margin-top: 6%;
+}
+.contact_details{
+   width: 210px;
+   text-align: center;
+   gap: 10%;
+   height: 140px;
+   flex-direction: column;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+
+}
